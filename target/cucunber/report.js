@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/cucumber.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/pawfitShop.feature");
 formatter.feature({
   "line": 1,
   "name": "Is it Weekend yet?",
@@ -16,21 +16,21 @@ formatter.scenarioOutline({
 });
 formatter.step({
   "line": 5,
-  "name": "today is \"\u003cday\u003e\"",
+  "name": "用户在pawfit shop登录页停留",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "I ask whether it\u0027s Weekend yet",
+  "name": "用户输入登录账号",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be told \"\u003canswer\u003e\"",
+  "name": "用户输入登录密码",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 9,
+  "line": 8,
   "name": "",
   "description": "",
   "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;",
@@ -40,7 +40,7 @@ formatter.examples({
         "day",
         "answer"
       ],
-      "line": 10,
+      "line": 9,
       "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;1"
     },
     {
@@ -48,7 +48,7 @@ formatter.examples({
         "Friday",
         "Nope"
       ],
-      "line": 11,
+      "line": 10,
       "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;2"
     },
     {
@@ -56,7 +56,7 @@ formatter.examples({
         "Sunday",
         "Yeah"
       ],
-      "line": 12,
+      "line": 11,
       "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;3"
     },
     {
@@ -64,14 +64,14 @@ formatter.examples({
         "anything else!",
         "Nope"
       ],
-      "line": 13,
+      "line": 12,
       "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;4"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 11,
+  "line": 10,
   "name": "Today is or is not Weekend",
   "description": "",
   "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;2",
@@ -80,31 +80,99 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "today is \"Friday\"",
-  "matchedColumns": [
-    0
-  ],
+  "name": "用户在pawfit shop登录页停留",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "I ask whether it\u0027s Weekend yet",
+  "name": "用户输入登录账号",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be told \"Nope\"",
-  "matchedColumns": [
-    1
-  ],
+  "name": "用户输入登录密码",
   "keyword": "Then "
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Friday",
-      "offset": 10
-    }
-  ],
-  "location": "isWeekendSteps.todayIs(String)"
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "Today is or is not Weekend",
+  "description": "",
+  "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "用户在pawfit shop登录页停留",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "用户输入登录账号",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "用户输入登录密码",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenario({
+  "line": 12,
+  "name": "Today is or is not Weekend",
+  "description": "",
+  "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 5,
+  "name": "用户在pawfit shop登录页停留",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "用户输入登录账号",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "用户输入登录密码",
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
 });
