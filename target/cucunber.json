@@ -1,0 +1,204 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Today is or is not Weekend",
+        "description": "",
+        "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 119212630,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Friday",
+                  "offset": 10
+                }
+              ],
+              "location": "isWeekendSteps.today_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66164,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Weekend yet",
+            "match": {
+              "location": "isWeekendSteps.i_ask_whether_it_s_Weekend_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1449722,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nope",
+                  "offset": 18
+                }
+              ],
+              "location": "isWeekendSteps.i_should_be_told(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Today is or is not Weekend",
+        "description": "",
+        "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54415,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunday",
+                  "offset": 10
+                }
+              ],
+              "location": "isWeekendSteps.today_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21024,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Weekend yet",
+            "match": {
+              "location": "isWeekendSteps.i_ask_whether_it_s_Weekend_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55652,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Yeah\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yeah",
+                  "offset": 18
+                }
+              ],
+              "location": "isWeekendSteps.i_should_be_told(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Today is or is not Weekend",
+        "description": "",
+        "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 57506,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "anything else!",
+                  "offset": 10
+                }
+              ],
+              "location": "isWeekendSteps.today_is(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17623,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I ask whether it\u0027s Weekend yet",
+            "match": {
+              "location": "isWeekendSteps.i_ask_whether_it_s_Weekend_yet()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167882,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nope",
+                  "offset": 18
+                }
+              ],
+              "location": "isWeekendSteps.i_should_be_told(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Is it Weekend yet?",
+    "description": "Everybody wants to know when it\u0027s Weekend",
+    "id": "is-it-weekend-yet?",
+    "keyword": "Feature",
+    "uri": "C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/cucumber.feature"
+  }
+]
