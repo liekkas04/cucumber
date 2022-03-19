@@ -11,17 +11,12 @@
 
 <dependencies>
     <dependency>
-        <groupId>info.cukes</groupId>
-        <artifactId>cucumber-java</artifactId>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-java8</artifactId>
+        <version>7.0.0</version>
         <scope>test</scope>
-        <version>1.2.4</version>
     </dependency>
-    <dependency>
-        <groupId>info.cukes</groupId>
-        <artifactId>cucumber-jvm</artifactId>
-        <version>1.2.4</version>
-        <type>pom</type>
-    </dependency>
+
     <dependency>
         <groupId>info.cukes</groupId>
         <artifactId>cucumber-junit</artifactId>
@@ -32,6 +27,17 @@
                 <artifactId>junit</artifactId>
             </exclusion>
         </exclusions>
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>4.3.1</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>io.cucumber</groupId>
+        <artifactId>cucumber-testng</artifactId>
+        <version>4.3.1</version>
     </dependency>
     <dependency>
         <groupId>junit</groupId>
@@ -46,7 +52,7 @@
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
-        <version>2.47.1</version>
+        <version>4.0.0</version>
     </dependency>
     <dependency>
         <groupId>org.apache.maven.plugins</groupId>
@@ -79,6 +85,14 @@
             <configuration>
                 <forkMode>once</forkMode>
                 <argLine>-Dfile.encoding=UTF-8</argLine>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>8</source>
+                <target>8</target>
             </configuration>
         </plugin>
     </plugins>
