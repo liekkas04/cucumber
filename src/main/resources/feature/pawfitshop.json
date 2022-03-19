@@ -1,0 +1,232 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language zh_CN"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15314587622,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open login page",
+            "match": {
+              "location": "TestPawfitShopLogin.open_login_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Today is or is not Weekend",
+        "description": "",
+        "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 311970510,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert data to name edittext \"Friday\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Friday",
+                  "offset": 30
+                }
+              ],
+              "location": "TestPawfitShopLogin.insert_data_to_name_edittext(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174306118,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insert data to password edittext \"Nope\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nope",
+                  "offset": 34
+                }
+              ],
+              "location": "TestPawfitShopLogin.insert_data_to_password_edittext(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 183288391,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click login button",
+            "match": {
+              "location": "TestPawfitShopLogin.click_login_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 2677399,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[1]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat cn.cucumber.fk.TestPawfitShopLogin.login_the_pawfit_shop(TestPawfitShopLogin.java:41)\r\n\tat ✽.Then login the pawfit shop(C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/pawfitShop.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "login the pawfit shop",
+            "match": {
+              "location": "TestPawfitShopLogin.login_the_pawfit_shop()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@debug"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10738335845,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open login page",
+            "match": {
+              "location": "TestPawfitShopLogin.open_login_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Today is or is not Weekend",
+        "description": "",
+        "id": "is-it-weekend-yet?;today-is-or-is-not-weekend;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 176215851,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "insert data to name edittext \"fk20110218@live.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fk20110218@live.com",
+                  "offset": 30
+                }
+              ],
+              "location": "TestPawfitShopLogin.insert_data_to_name_edittext(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 220686033,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "insert data to password edittext \"https://www.apple.com.cn/shop/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.apple.com.cn/shop/",
+                  "offset": 34
+                }
+              ],
+              "location": "TestPawfitShopLogin.insert_data_to_password_edittext(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5073543770,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click login button",
+            "match": {
+              "location": "TestPawfitShopLogin.click_login_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 324008,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[2]\u003e but was:\u003c[1]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat cn.cucumber.fk.TestPawfitShopLogin.login_the_pawfit_shop(TestPawfitShopLogin.java:41)\r\n\tat ✽.Then login the pawfit shop(C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/pawfitShop.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "login the pawfit shop",
+            "match": {
+              "location": "TestPawfitShopLogin.login_the_pawfit_shop()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@debug"
+          }
+        ]
+      }
+    ],
+    "name": "Is it Weekend yet?",
+    "description": "Everybody wants to know when it\u0027s Weekend",
+    "id": "is-it-weekend-yet?",
+    "keyword": "Feature",
+    "uri": "C:/Users/rad7/Desktop/Cucumber/src/main/resources/feature/pawfitShop.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@debug"
+      }
+    ]
+  }
+]
